@@ -12,6 +12,8 @@ body{
     height: 100vh;
 }
 .mainbox{
+    width: 80%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,35 +22,47 @@ body{
 }
 .box1{
     display: flex;
-    width: 540px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.smallbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 540px;
+}
 .text1{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 48px;
+    display: flex;
+    justify-content: flex-start;
     padding-bottom: 2px;
 }
 .p1{
     color: #4D4F62;
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: 275;
-    letter-spacing: 0.25px;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 275;
+line-height: normal;
+letter-spacing: 0.25px;
 }
 .text2{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 48px;
+    display: flex;
+    justify-content: flex-start;
     padding-bottom: 16px;
 }
 .p2{
     color: #4D4F62;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 0.25px;
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.25px;
 }
 .p3{
     color: #4D4F62;
@@ -60,7 +74,6 @@ body{
     letter-spacing: 0.104px;
     opacity: 0.5;
 }
-
 .text3{
     width: 100%;
 
@@ -86,7 +99,7 @@ body{
     padding-left: 32px;
     display: flex;
 }
-p4{
+.p4{
     color: #4D4F62;
     font-family: Poppins;
     font-size: 20px;
@@ -210,7 +223,7 @@ p4{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-right: 32px;
     padding-bottom: 32px;
 }
