@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,62 +12,66 @@ body{
     width: 100vw;
     height: 100vh;
 }
-.mainbox{
+
+.mainbox {
     width: 80%;
     height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #FAFAFA;
-    gap: 64px;
+    gap: 64px; 
 }
-.box1{
+
+.box1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px; 
 }
-.smallbox{
+
+.smallbox {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
     width: 540px;
+    gap: 2px;
 }
+
 .text1{
-    padding-left: 48px;
     display: flex;
-    justify-content: flex-start;
-    padding-bottom: 2px;
-}
-.p1{
-    color: #4D4F62;
-font-family: Poppins;
-font-size: 36px;
-font-style: normal;
-font-weight: 275;
-line-height: normal;
-letter-spacing: 0.25px;
+    justify-content: center; 
+    width: 100%;
 }
 .text2{
-    padding-left: 48px;
     display: flex;
-    justify-content: flex-start;
-    padding-bottom: 16px;
+    justify-content: center; 
+    width: 100%;
 }
-.p2{
-    color: #4D4F62;
-text-align: center;
-font-family: Poppins;
-font-size: 36px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.25px;
+.text3{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
 }
-.p3{
+.p1 {
     color: #4D4F62;
-    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+}
+
+.p2 {
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+.p3 {
+    color: #4D4F62;
     font-family: Poppins;
     font-size: 15px;
     font-weight: 400;
@@ -74,30 +79,116 @@ letter-spacing: 0.25px;
     letter-spacing: 0.104px;
     opacity: 0.5;
 }
-.text3{
-    width: 100%;
 
-}
-.box2{
+.box2 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    background-color: #FAFAFA;
+    gap: 30px; /* Space between the boxes */
+    flex-wrap: wrap; /* Make it responsive */
+}
+.box3{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 30px;
+    
 }
 .smallbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     border-top: 4px solid #44D3D2;
     border-radius: 8px;
     background-color: #FFF;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
     width: 350px;
     height: 230px;
+    gap: 8px; 
 }
-.text4{
-    padding-top:32px ;
-    padding-left: 32px;
+.smallbox2{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 4px solid #EA5454;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    width: 350px;
+    height: 230px;
+    gap: 8px; 
+}
+.smallbox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 4px solid #FCAE4A;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    width: 350px;
+    height: 230px;
+    gap: 8px; 
+}
+.smallbox4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 4px solid #549EF2;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    width: 350px;
+    height: 230px;
+    gap: 8px; 
+}
+
+
+.text4{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text5 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text6{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text7 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text8{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text9 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text10{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.text11 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
 .p4{
     color: #4D4F62;
@@ -105,54 +196,14 @@ letter-spacing: 0.25px;
     font-size: 20px;
     font-weight: 600;
 }
-.text5{
-    padding-top:6px ;
-    padding-left: 32px;
-    display: flex;
-    justify-content: flex-start;
-}
 .p5{
     color: #4D4F62;
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
-    line-height: 23px; 
+    line-height: 23px;
     letter-spacing: 0.09px;
     opacity: 0.5;
-}
-.img1{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 40px;
-    padding-right: 32px;
-    padding-bottom: 32px;
-}
-.pic1{
-    width: 64px;
-    height: 64px;
-}
-.box3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 30px;
-}
-.smallbox2{
-    display: flex;
-    flex-direction: column;
-    border-top: 4px solid #EA5454;
-    border-radius: 8px;
-    background-color: #FFF;
-    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
-    width: 350px;
-    height: 250px;
-}
-.text6{
-    padding-top:32px ;
-    padding-left: 32px;
-    display: flex;
 }
 .p6{
     color: #4D4F62;
@@ -160,44 +211,14 @@ letter-spacing: 0.25px;
     font-size: 20px;
     font-weight: 600;
 }
-.text7{
-    padding-top:6px ;
-    padding-left: 32px;
-    display: flex;
-}
 .p7{
     color: #4D4F62;
     font-family: Poppins;
     font-size: 13px;
-    opacity: 0.5;
     font-weight: 400;
-    line-height: 23px; 
+    line-height: 23px;
     letter-spacing: 0.09px;
-}
-.img2{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 40px;
-    padding-right: 32px;
-    padding-bottom: 32px;
-}
-.pic2{
-    width: 64px;
-    height: 64px;
-}
-.smallbox3{
-    border-top: 4px solid #FCAE4A;
-    border-radius: 8px;
-    background-color: #FFF;
-    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
-    width: 350px;
-    height: 250px;
-}
-.text8{
-    padding-top:32px ;
-    padding-left: 32px;
-    display: flex;
+    opacity: 0.5;
 }
 .p8{
     color: #4D4F62;
@@ -205,73 +226,65 @@ letter-spacing: 0.25px;
     font-size: 20px;
     font-weight: 600;
 }
-.text9{
-    padding-top:6px ;
-    padding-left: 32px;
-    display: flex;
-}
 .p9{
     color: #4D4F62;
     font-family: Poppins;
     font-size: 13px;
-    opacity: 0.5;
     font-weight: 400;
-    line-height: 23px; 
+    line-height: 23px;
     letter-spacing: 0.09px;
-}
-.img3{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 60px;
-    padding-right: 32px;
-    padding-bottom: 32px;
-}
-.pic3{
-    width: 64px;
-    height: 64px;
-}
-.smallbox4{
-    border-top: 4px solid #549EF2;
-    border-radius: 8px;
-    background-color: #FFF;
-    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
-    width: 350px;
-    height: 250px;
-}
-.text10{
-    padding-top:32px ;
-    padding-left: 32px;
-    display: flex;
+    opacity: 0.5;
 }
 .p10{
     color: #4D4F62;
     font-family: Poppins;
     font-size: 20px;
     font-weight: 600;
-
-}
-.text11{
-    padding-top:6px ;
-    padding-left: 32px;
-    display: flex;
 }
 .p11{
     color: #4D4F62;
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
-    line-height: 23px; 
+    line-height: 23px;
     letter-spacing: 0.09px;
     opacity: 0.5;
 }
-.img4{
+.img1 {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 40px;
-    padding-right: 32px;
-    padding-bottom: 32px;
+    width: 100%;
+    padding: 32px;
+}
+.img2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 32px;
+}
+.img3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 32px;
+}
+.img4 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 32px;
+}
+.pic1{
+    width: 64px;
+    height: 64px;
+}
+.pic2{
+    width: 64px;
+    height: 64px;
+}
+.pic3{
+    width: 64px;
+    height: 64px;
 }
 .pic4{
     width: 64px;
